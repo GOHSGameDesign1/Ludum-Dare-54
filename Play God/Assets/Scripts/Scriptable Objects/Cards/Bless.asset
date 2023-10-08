@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ce6b05130dcda49bb49ff7ea14a275, type: 3}
+  m_Name: Bless
+  m_EditorClassIdentifier: 
+  title: Blessing
+  description: Bless everything
+  icon: {fileID: 21300000, guid: c85512fe2b81b8a4dbf72c08074bf651, type: 3}
+  lowerDurationLimit: 5
+  upperDurationLimit: 15
+  effects:
+  - {fileID: 11400000, guid: a20ccd6926989244b8d911127e25a675, type: 2}
+  - {fileID: 11400000, guid: f4a2938a783c4e343bd8ea79a641e8c3, type: 2}
+  - {fileID: 11400000, guid: 91f5d8912a84e624ab1d23a2118ec725, type: 2}
+  - {fileID: 11400000, guid: b51a3306ee9aa9b4a8fce2d503524361, type: 2}

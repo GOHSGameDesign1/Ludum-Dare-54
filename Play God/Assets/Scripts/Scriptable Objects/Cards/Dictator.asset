@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ce6b05130dcda49bb49ff7ea14a275, type: 3}
+  m_Name: Dictator
+  m_EditorClassIdentifier: 
+  title: Dictator
+  description: Cause a dictator to rise to power
+  icon: {fileID: 21300000, guid: 1f0807a9f75ad8e4ab3b45663e2d10bd, type: 3}
+  lowerDurationLimit: 10
+  upperDurationLimit: 20
+  effects:
+  - {fileID: 11400000, guid: 5db6d61e893b87c479659dadc3b35ef7, type: 2}
+  - {fileID: 11400000, guid: 7ecb88c4a578b5f4d93e1fcce3c7e36b, type: 2}
+  - {fileID: 11400000, guid: fa483c3624c864c49a2e1213471efa55, type: 2}
+  - {fileID: 11400000, guid: 1871c7b05de01104c9aed15823dc5d9a, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ce6b05130dcda49bb49ff7ea14a275, type: 3}
+  m_Name: Animal attack
+  m_EditorClassIdentifier: 
+  title: Animal Attack
+  description: Enrage some animals
+  icon: {fileID: 21300000, guid: aaf52c80ad8778947affebcedfdc32ca, type: 3}
+  lowerDurationLimit: 7
+  upperDurationLimit: 15
+  effects:
+  - {fileID: 11400000, guid: ce8928805bdf70d4b9536fa4ab50de1b, type: 2}
+  - {fileID: 11400000, guid: 9630bd2558058e740bfb55f3973a88e6, type: 2}
