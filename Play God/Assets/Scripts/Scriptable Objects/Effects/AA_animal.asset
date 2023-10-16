@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   addOrTimes: 0
   value: 4
-  target: animal
+  target: 3
   isInstant: 0
   incOrDec: 0

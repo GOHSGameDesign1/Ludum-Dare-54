@@ -193,7 +193,7 @@ public class GameManager : MonoBehaviour
         currentDeathRate = deathRate;
         foreach(Effect e in effects)
         {
-            switch (e.target)
+            /*switch (e.target)
             {
                 case "birth":
                     currentBirthRate = ApplyEffect(currentBirthRate, e);
@@ -204,7 +204,7 @@ public class GameManager : MonoBehaviour
                 default:
                     //Debug.LogWarning("Could not register effect: " + e.name + "! Invlaid target!");
                     break;
-            }
+            }*/
 
         }
 
@@ -228,7 +228,7 @@ public class GameManager : MonoBehaviour
         {
             switch (e.target)
             {
-                case "plant":
+               /* case "plant":
                     currentPlantIncreaseRate = ApplyEffect(currentPlantIncreaseRate, e);
                     break;
                 case "animal":
@@ -239,7 +239,7 @@ public class GameManager : MonoBehaviour
                     break;
                 default:
                     //Debug.LogWarning("Could not register effect: " + e.name + "! Invlaid target!");
-                    break;
+                    break;*/
             }
         }
 
@@ -289,7 +289,7 @@ public class GameManager : MonoBehaviour
         {
             switch (effect.target)
             {
-                case "birth":
+               /* case "birth":
                     population = Mathf.RoundToInt(ApplyEffect(population, effect));
                     return;
                 case "death":
@@ -306,7 +306,7 @@ public class GameManager : MonoBehaviour
                     return;
                 default:
                     Debug.LogWarning("Could not register effect: " + effect.name + "! Invlaid target!");
-                    return;
+                    return;*/
 
             }
         }
