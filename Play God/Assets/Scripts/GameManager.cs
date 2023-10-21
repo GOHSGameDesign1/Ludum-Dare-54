@@ -340,6 +340,30 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // To be used by effects to change the population
+    public void ChangePopulation(int amount)
+    {
+        population += amount;
+    }
+
+    // Used by effects: changes plants
+    public void ChangePlants(int amount)
+    {
+        plants += amount;
+    }
+
+    // Used by effects: changes plants
+    public void ChangeAnimals(int amount)
+    {
+        animals += amount;
+    }
+
+    // Used by effects: changes plants
+    public void ChangeMinerals(int amount)
+    {
+        minerals += amount;
+    }
+
     void chooseRandomEvent()
     {
 
