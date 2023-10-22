@@ -3,13 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum Target
-{
-    Population,
-    Plant,
-    Mineral,
-    Animal
-}
+
 
 [CreateAssetMenu(fileName = "New Effect")]
 public class Effect : ScriptableObject

@@ -14,4 +14,7 @@ public class Card : ScriptableObject
     public float upperDurationLimit;
 
     public List<Effect> effects;
+
+    [SerializeField]
+    public List<StatusEffect> statusEffects;
 }

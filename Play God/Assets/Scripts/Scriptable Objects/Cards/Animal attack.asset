@@ -20,3 +20,7 @@ MonoBehaviour:
   effects:
   - {fileID: 11400000, guid: ce8928805bdf70d4b9536fa4ab50de1b, type: 2}
   - {fileID: 11400000, guid: 9630bd2558058e740bfb55f3973a88e6, type: 2}
+  statusEffects:
+  - target: 0
+    value: 10
+    changeInterval: 0.2
