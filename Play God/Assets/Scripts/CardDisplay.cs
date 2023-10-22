@@ -73,14 +73,8 @@ public class CardDisplay : MonoBehaviour
 
         // yea but i learned everything thyey teach p much
         // yt mostly and just by doing u get experince share room u right no, its for a competition, I wont, its for fun
-        StopAllCoroutines();
-        MoveTowards(originalPos);
     }
 
-    public void MoveTowards(Vector2 location)
-    {
-        //StartCoroutine(MoveLerp(location));
-    }
 
     public IEnumerator MoveLerp(Vector2 location)
     {

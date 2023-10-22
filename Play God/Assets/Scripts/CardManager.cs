@@ -54,7 +54,6 @@ public class CardManager : MonoBehaviour
         foreach(CardDisplay card in cards)
         {
             card.originalPos = cardPositions[counter];
-            card.MoveTowards(card.originalPos);
             counter++;
         }
     }
