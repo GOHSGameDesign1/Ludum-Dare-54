@@ -22,5 +22,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9630bd2558058e740bfb55f3973a88e6, type: 2}
   statusEffects:
   - target: 0
-    value: 10
+    value: 25
     changeInterval: 0.2
+  - target: 3
+    value: 50
+    changeInterval: 0.25

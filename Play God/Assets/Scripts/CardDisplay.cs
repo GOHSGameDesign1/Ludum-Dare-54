@@ -11,7 +11,6 @@ public class CardDisplay : MonoBehaviour
     private Transform globe;
     public Card card;
 
-    private GameObject statusManager;
     public Vector2 originalPos;
     private Vector2 velocity = new Vector2(0, 0);
 
@@ -25,7 +24,6 @@ public class CardDisplay : MonoBehaviour
         cam = Camera.main;
 
         globe = GameObject.Find("Globe").transform;
-        statusManager = GameObject.Find("Status Manager");
         titleText = transform.GetChild(1).GetComponent<TextMeshPro>();
         descriptionText = transform.GetChild(2).GetComponent<TextMeshPro>();
         iconRenderer = transform.GetChild(3).GetComponent<SpriteRenderer>();
@@ -101,11 +99,8 @@ public class CardDisplay : MonoBehaviour
         Debug.Log("Card Used: " + card.title + "\nEffects used: " + card.effects);
 
         float effectDuration = Random.Range(card.lowerDurationLimit, card.upperDurationLimit);
-        statusManager.GetComponent<StatusManager>().AddCard(this, effectDuration);
-        foreach (Effect effect in card.effects)
-        {
-            GameManager.GetInstance().AddEffect(effect, effectDuration);
-        }
+        StatusManager.GetInstance().AddCard(this, effectDuration);
+
         CardManager.GetInstance().RemoveCard(this);
     }
 }
